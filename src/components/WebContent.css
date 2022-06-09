@@ -1,0 +1,53 @@
+.web-container {
+  object-fit: contain;
+    display: flex;
+   flex-flow: column;
+   justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/computer-floating.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .web-container h1 {
+    text-align: center;
+    font-size: 100px;
+    color: #fff;
+  }
+
+  .web-container > p {
+  text-align: center;
+  color: #fff;
+
+}
+
+@media screen and (max-width: 960px) {
+  .web-container > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .web-container > h1 {
+      font-size: 50px;
+      margin-top: -100px;
+      margin-bottom: 30px;
+}
+
+.web-container > p {
+  font-size: 20px;
+}
+
+.btn-mobile {
+  display: block;
+  text-decoration: none;  
+}
+
+.btn {
+  width: 100%;
+}
+}
